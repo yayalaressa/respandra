@@ -1,0 +1,16 @@
+{
+    "id": "1",
+    "name": "Add Post",
+    "icon": "fa fa-thumb-tack",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "Add Post",
+            "url": "admin\/post\/add_post"
+        },
+        {
+            "name": "List Post",
+            "url": "admin\/post\/list_post"
+        }
+    ]
+}
