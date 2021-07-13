@@ -114,7 +114,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = 'system/admin';
+	$application_folder = 'system/respandra';
 
 /*
  *---------------------------------------------------------------

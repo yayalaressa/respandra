@@ -10,12 +10,9 @@ class System extends AdminController {
         parent::__construct();
         
         $this->updater = new \Kanti\HubUpdater(array(
-            "holdTime" => 10,//time(seconds) the Cached-Information will be used
-            "name" => 'yayalaressa/respandra',//Repository to watch
-            "branch" => 'master',//wich branch to watch
-            "cache" => 'temp/',//were to put the caching stuff
-            "save" => FCPATH . 'cache/',//there to put the downloaded Version[default ./]
-            "prerelease" => true,//accept prereleases?
+            "holdTime" => 10, //time(seconds) the Cached-Information will be used
+            "name" => 'yayalaressa/respandra', //Repository to watch
+            "prerelease" => true //accept prereleases?
         ));
 
     }

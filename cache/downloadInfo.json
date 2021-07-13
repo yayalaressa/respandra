@@ -1,10 +1,10 @@
 [
     {
-        "url": "https:\/\/api.github.com\/repos\/yayalaressa\/respandra\/releases\/46102356",
-        "assets_url": "https:\/\/api.github.com\/repos\/yayalaressa\/respandra\/releases\/46102356\/assets",
-        "upload_url": "https:\/\/uploads.github.com\/repos\/yayalaressa\/respandra\/releases\/46102356\/assets{?name,label}",
+        "url": "https:\/\/api.github.com\/repos\/yayalaressa\/respandra\/releases\/46104647",
+        "assets_url": "https:\/\/api.github.com\/repos\/yayalaressa\/respandra\/releases\/46104647\/assets",
+        "upload_url": "https:\/\/uploads.github.com\/repos\/yayalaressa\/respandra\/releases\/46104647\/assets{?name,label}",
         "html_url": "https:\/\/github.com\/yayalaressa\/respandra\/releases\/tag\/v1.8-beta",
-        "id": 46102356,
+        "id": 46104647,
         "author": {
             "login": "yayalaressa",
             "id": 16610358,
@@ -25,17 +25,17 @@
             "type": "User",
             "site_admin": false
         },
-        "node_id": "MDc6UmVsZWFzZTQ2MTAyMzU2",
+        "node_id": "MDc6UmVsZWFzZTQ2MTA0NjQ3",
         "tag_name": "v1.8-beta",
         "target_commitish": "master",
         "name": "Startup Respandra CMS",
         "draft": false,
         "prerelease": true,
-        "created_at": "2021-07-13T07:36:51Z",
-        "published_at": "2021-07-13T07:38:03Z",
+        "created_at": "2021-07-13T08:21:03Z",
+        "published_at": "2021-07-13T08:22:00Z",
         "assets": [],
         "tarball_url": "https:\/\/api.github.com\/repos\/yayalaressa\/respandra\/tarball\/v1.8-beta",
         "zipball_url": "https:\/\/api.github.com\/repos\/yayalaressa\/respandra\/zipball\/v1.8-beta",
-        "body": "- This system may be so many bugs."
+        "body": "- This is only development start up"
     }
 ]
