@@ -59,7 +59,7 @@ function get_version()
     $file = FCPATH . 'cache/installedVersion.json';
     $json = file_get_contents($file);
     $data = json_decode($json, true);
-    return $data['tag_name'];
+    return !empty($data['tag_name']) ? $data['tag_name'] : '';
 }
 
 // Load menu modules admin
