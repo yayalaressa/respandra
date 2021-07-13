@@ -17,7 +17,7 @@ class Welcome extends AdminController {
 		$d->description = 'Dashboard Description';
 		$d->url = 'Dashboard Link';
 
-		$this->theme->render('welcome', array(
+		$this->theme->render('admin/welcome', array(
 			'title' => 'Dashboard',
 			'heading' => 'Dashboard',
 			'is_role' => 'admin',

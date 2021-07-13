@@ -1,6 +1,13 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
+use \Kanti\HubUpdater;
+use \Michelf\MarkdownExtra;
+use \Suin\RSSWriter\Feed;
+use \Suin\RSSWriter\Channel;
+use \Suin\RSSWriter\Item;
+
 /* load the MX_Router class */
 require APPPATH . "third_party/MX/Controller.php";
 
