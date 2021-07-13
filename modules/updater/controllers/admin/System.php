@@ -10,17 +10,12 @@ class System extends AdminController {
         parent::__construct();
         
         $this->updater = new \Kanti\HubUpdater(array(
-            "cacheFile" => "downloadInfo.json",//name of the InformationCacheFile(in cacheDir)
             "holdTime" => 10,//time(seconds) the Cached-Information will be used
-            "versionFile" => "installedVersion.json",//name of the InstalledVersionInformation is safed(in cacheDir)
-            "zipFile" => "update.zip",//name of the temporary zip file(in cacheDir)
-            "updateignore" => ".updateignore",//name of the updateignore file(in root of project)
             "name" => 'yayalaressa/respandra',//Repository to watch
             "branch" => 'master',//wich branch to watch
             "cache" => 'temp/',//were to put the caching stuff
             "save" => FCPATH . 'cache/',//there to put the downloaded Version[default ./]
             "prerelease" => true,//accept prereleases?
-            "exceptions" => true,//if true, will throw new \Exception on failure
         ));
 
     }
@@ -36,7 +31,7 @@ class System extends AdminController {
                 'breadcrumb' => 'update system',
                 'button' => 'Update to ' . $info['tag_name'],
                 'update' => $info,
-                'url' => site_url() . 'admin/upgrade/system/do_update'
+                'url' => site_url() . 'admin/updater/system/do_update'
             ));
         } else {
             $info = $this->updater->getCurrentInfo();
@@ -56,8 +51,9 @@ class System extends AdminController {
     {
         if($this->updater->able()) {
             $this->updater->update();
+            redirect(site_url() . 'admin/updater/system');
         } else {
-            redirect('/admin/upgrade/system', 'refresh');
+            redirect(site_url() . 'admin/updater/system');
         }
     }
 
