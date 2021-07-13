@@ -2,4 +2,7 @@
 favicon.ico
 cache/
 config/
-content/
+content/category/
+content/comment/
+content/images/
+content/user/
