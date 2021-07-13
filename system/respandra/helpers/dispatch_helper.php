@@ -57,9 +57,13 @@ function offline()
 function get_version()
 {
     $file = FCPATH . 'cache/installedVersion.json';
-    $json = file_get_contents($file);
-    $data = json_decode($json, true);
-    return !empty($data['tag_name']) ? $data['tag_name'] : '';
+    if(file_exists($file))
+    {
+        $json = file_get_contents($file);
+        $data = json_decode($json, true);
+        return !empty($data['tag_name']) ? $data['tag_name'] : '';
+    }
+    return;
 }
 
 // Load menu modules admin

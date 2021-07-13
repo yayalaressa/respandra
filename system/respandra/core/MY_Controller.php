@@ -1,7 +1,6 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-
 use \Kanti\HubUpdater;
 use \Michelf\MarkdownExtra;
 use \Suin\RSSWriter\Feed;
@@ -19,8 +18,8 @@ class Controller extends MX_Controller
 	function __construct() 
 	{
 		parent::__construct();
-		$helpers = array('dispatch', 'url', 'file', 'form', 'email');
-		$libraries = array('session', 'flash_message', 'theme', 'form_validation', 'upload', 'email', 'pagination');
+		$helpers = array('dispatch', 'file', 'form', 'email');
+		$libraries = array('theme', 'form_validation', 'upload', 'email', 'pagination');
 		$this->load->helper($helpers);
 		$this->load->library($libraries);
 		$this->_hmvc_fixes();
@@ -42,8 +41,8 @@ class AdminController extends MX_Controller
 	function __construct() 
 	{
 		parent::__construct();
-		$helpers = array('dispatch', 'url', 'file', 'form', 'email');
-		$libraries = array('session', 'flash_message', 'theme', 'form_validation', 'upload', 'email', 'pagination');
+		$helpers = array('dispatch', 'file', 'form', 'email');
+		$libraries = array('theme', 'form_validation', 'upload', 'email', 'pagination');
 		$this->load->helper($helpers);
 		$this->load->library($libraries);
 		$this->_hmvc_fixes();
