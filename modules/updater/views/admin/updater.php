@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <p>Notes:</p>
         <p><?php echo \Michelf\MarkdownExtra::defaultTransform($update['body']); ?></p>
     </p>
-	<a href="#" class="btn btn-primary"><?php echo $button; ?></a>
+	<a href="<?php echo $url; ?>" class="btn btn-primary"><?php echo $button; ?></a>
 </div>
 </div>
 <?php endif; ?>

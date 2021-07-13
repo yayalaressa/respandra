@@ -47,7 +47,7 @@ class System extends AdminController {
                 'breadcrumb' => 'update system',
                 'button' => 'Read me',
                 'update' => $info,
-                'url' => 'test'
+                'url' => 'https://yayalaressa.github.io/respandra/'
             ));
         }   
     }
