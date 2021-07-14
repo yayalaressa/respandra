@@ -1,0 +1,16 @@
+{
+    "id": "2",
+    "name": "Category",
+    "icon": "fa fa-tags",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "Add Category",
+            "url": "admin\/category\/add_category"
+        },
+        {
+            "name": "List Category",
+            "url": "admin\/category\/list_category"
+        }
+    ]
+}

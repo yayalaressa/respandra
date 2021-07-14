@@ -1,0 +1,16 @@
+{
+    "id": "7",
+    "name": "Updater",
+    "icon": "fa fa-cloud-download",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "Module Update",
+            "url": "admin\/updater\/module"
+        },
+        {
+            "name": "System Update",
+            "url": "admin\/updater\/system"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "5",
+    "name": "Settings",
+    "icon": "fa fa-cogs",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "General",
+            "url": "admin\/setting\/general"
+        },
+        {
+            "name": "Reading",
+            "url": "admin\/setting\/reading"
+        },
+        {
+            "name": "SEO",
+            "url": "admin\/setting\/seo"
+        },
+        {
+            "name": "Widget",
+            "url": "admin\/setting\/widget"
+        }
+    ]
+}

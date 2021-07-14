@@ -1,0 +1,16 @@
+{
+    "id": "4",
+    "name": "Page",
+    "icon": "fa fa-file-text-o",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "Add Page",
+            "url": "admin\/static\/add_static"
+        },
+        {
+            "name": "List Page",
+            "url": "admin\/static\/list_page"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "6",
+    "name": "User",
+    "icon": "fa fa-users",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "Add User",
+            "url": "admin\/user\/add_user"
+        },
+        {
+            "name": "List Page",
+            "url": "admin\/user\/list_user"
+        }
+    ]
+}
