@@ -14,7 +14,7 @@ class Module extends AdminController {
             "holdTime" => 10, //time(seconds) the Cached-Information will be used
             "versionFile" => "installedVersion.json",//name of the InstalledVersionInformation is safed(in cacheDir)
             "name" => 'yayalaressa/respandra-modules', //Repository to watch
-            "cache" => 'cache/module/',//were to put the caching stuff
+            "cache" => 'system/update/module/',//were to put the caching stuff
             "prerelease" => true //accept prereleases?
         ));
 

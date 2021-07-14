@@ -14,7 +14,7 @@ class System extends AdminController {
             "holdTime" => 10, //time(seconds) the Cached-Information will be used
             "versionFile" => "installedVersion.json",//name of the InstalledVersionInformation is safed(in cacheDir)
             "name" => 'yayalaressa/respandra', //Repository to watch
-            "cache" => 'cache/system/',//were to put the caching stuff
+            "cache" => 'system/update/system/',//were to put the caching stuff
             "prerelease" => true //accept prereleases?
         ));
 
