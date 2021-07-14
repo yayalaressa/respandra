@@ -1,0 +1,12 @@
+{
+    "id": "1",
+    "name": "Post",
+    "version": "1.0",
+    "url": "#",
+    "status": "official",
+    "author": [{
+            "name": "Yaya Laressa",
+            "url": "#"
+        }
+    ]
+}

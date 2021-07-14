@@ -1,0 +1,16 @@
+{
+    "id": "5",
+    "name": "Comment",
+    "icon": "fa fa-comments",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "Moderator Comment",
+            "url": "admin\/comment\/moderator_comment"
+        },
+        {
+            "name": "List Comment",
+            "url": "admin\/comment\/list_comment"
+        }
+    ]
+}

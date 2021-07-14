@@ -1,0 +1,12 @@
+{
+    "id": "2",
+    "name": "Category",
+    "version": "1.0",
+    "url": "#",
+    "status": "official",
+    "author": [{
+            "name": "Yaya Laressa",
+            "url": "#"
+        }
+    ]
+}

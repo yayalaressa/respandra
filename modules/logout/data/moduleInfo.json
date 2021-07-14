@@ -1,0 +1,12 @@
+{
+    "id": "100",
+    "name": "Logout",
+    "version": "1.0",
+    "url": "#",
+    "status": "official",
+    "author": [{
+            "name": "Yaya Laressa",
+            "url": "#"
+        }
+    ]
+}

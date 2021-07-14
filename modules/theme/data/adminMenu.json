@@ -1,0 +1,16 @@
+{
+    "id": "8",
+    "name": "Theme",
+    "icon": "fa fa-paint-brush",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "Install Theme",
+            "url": "admin\/theme\/install_theme"
+        },
+        {
+            "name": "List Theme",
+            "url": "admin\/theme\/list_theme"
+        }
+    ]
+}

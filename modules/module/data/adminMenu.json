@@ -1,0 +1,16 @@
+{
+    "id": "7",
+    "name": "Module",
+    "icon": "fa fa-puzzle-piece",
+    "url": "#",
+    "role": "admin",
+    "submenu": [{
+            "name": "Install Module",
+            "url": "admin\/module\/install_module"
+        },
+        {
+            "name": "List Module",
+            "url": "admin\/module\/list_module"
+        }
+    ]
+}
