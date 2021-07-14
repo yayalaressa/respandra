@@ -8,13 +8,11 @@ class Module extends AdminController {
     public function __construct() 
     {
         parent::__construct();
-        
         $this->updater = new \Kanti\HubUpdater(array(
-            "cacheFile" => "downloadInfo.json",//name of the InformationCacheFile(in cacheDir)
+            "cacheFile" => "moduleInfo.json",//name of the InformationCacheFile(in cacheDir)
             "holdTime" => 10, //time(seconds) the Cached-Information will be used
-            "versionFile" => "installedVersion.json",//name of the InstalledVersionInformation is safed(in cacheDir)
+            "versionFile" => "moduleVersion.json",//name of the InstalledVersionInformation is safed(in cacheDir)
             "name" => 'yayalaressa/respandra-modules', //Repository to watch
-            "cache" => 'system/update/module/',//were to put the caching stuff
             "prerelease" => true //accept prereleases?
         ));
 

@@ -5,11 +5,11 @@
     "url": "#",
     "role": "admin",
     "submenu": [{
-            "name": "Module Update",
+            "name": "Update Module",
             "url": "admin\/updater\/module"
         },
         {
-            "name": "System Update",
+            "name": "Update System",
             "url": "admin\/updater\/system"
         }
     ]

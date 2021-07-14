@@ -56,7 +56,7 @@ function offline()
 
 function get_version()
 {
-    $file = FCPATH . 'system/update/system/installedVersion.json';
+    $file = FCPATH . 'cache/system/installedVersion.json';
     if(file_exists($file))
     {
         $json = file_get_contents($file);
