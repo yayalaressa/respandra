@@ -61,7 +61,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Brand Logo -->
             <a href="index3.html" class="brand-link">
               <img src="<?php echo site_url(); ?>themes/admin/images/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-              <span class="brand-text font-weight-light">AdminLTE 3</span>
+              <span class="brand-text font-weight-light">RespandraCMS<span style="font-size: 10px;"> <?php echo get_version(); ?></span></span>
             </a>
 
             <!-- Sidebar -->
@@ -125,10 +125,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <footer class="main-footer">
             <!-- To the right -->
             <div class="float-right d-none d-sm-inline">
-            <a href="https://yayalaressa.github.io/respandra">RespandraCMS</a> <?php echo get_version(); ?>
+            Developer by Yaya Laressa
             </div>
             <!-- Default to the left -->
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+            <strong>2021 &copy; <a href="https://yayalaressa.github.io/respandra">RespandraCMS</a></strong><span style="font-size: 10px;"> <?php echo get_version(); ?></span>
         </footer>
     </div>
     <!-- ./wrapper -->
