@@ -1,7 +1,0 @@
-{
-    "id": "0",
-    "name": "Dashboard",
-    "icon": "fa fa-dashboard",
-    "url": "admin\/dashboard",
-    "role": "admin"
-}

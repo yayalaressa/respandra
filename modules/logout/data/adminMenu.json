@@ -1,7 +1,0 @@
-{
-    "id": "100",
-    "name": "Logout",
-    "icon": "fa fa-sign-out",
-    "url": "admin\/logout",
-    "role": "admin"
-}
