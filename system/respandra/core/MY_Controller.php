@@ -7,7 +7,7 @@ use \Suin\RSSWriter\Feed;
 use \Suin\RSSWriter\Channel;
 use \Suin\RSSWriter\Item;
 
-require BASEPATH."extensions/Controller.php";
+require FCPATH."system/extensions/Controller.php";
 
 class MY_Controller extends MX_Controller {}
 
