@@ -1,8 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<?php if(!empty($update)): ?>
 <div class="card">
+<?php if(!empty($update)): ?>
 <div class="card-header">
 	<h5 class="m-0"><strong><?php echo $update['name']; ?></strong></h5>
 </div>
@@ -15,5 +15,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </p>
 	<a href="<?php echo $url; ?>" class="btn btn-primary"><?php echo $button; ?></a>
 </div>
+<?php else: ?>
+<div class="card-body">
+	<p class="card-text">
+		<?php echo $heading; ?>
+	</p>
 </div>
 <?php endif; ?>
+</div>

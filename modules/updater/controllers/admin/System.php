@@ -15,16 +15,15 @@ class System extends AdminController {
             "name" => 'yayalaressa/respandra', //Repository to watch
             "prerelease" => true //accept prereleases?
         ));
-
     }
-
+    
     public function index()
     {
         if ($this->updater->able()) {
             $info = $this->updater->getNewestInfo();
             $this->theme->render('admin/updater', array(
                 'title' => 'Updater',
-                'heading' => 'Your system a wait upgrade!',
+                'heading' => 'Your system a wait update!',
                 'is_role' => 'admin',
                 'breadcrumb' => 'update system',
                 'button' => 'Update to ' . $info['tag_name'],
@@ -38,7 +37,7 @@ class System extends AdminController {
                 'heading' => 'Your system is already the latest version.',
                 'is_role' => 'admin',
                 'breadcrumb' => 'update system',
-                'button' => 'Read me',
+                'button' => 'Official repository',
                 'update' => $info,
                 'url' => 'https://yayalaressa.github.io/respandra/'
             ));
