@@ -2,10 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html lang="en">
 
 <head>
@@ -18,11 +14,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="<?php echo site_url(); ?>themes/admin/css/OverlayScrollbars.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>themes/admin/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>themes/admin/css/responsive.bootstrap4.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <script src="<?php echo site_url(); ?>themes/admin/js/jquery.min.js"></script>
 </head>
 
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition sidebar-mini">
     <div class="wrapper">
 
         <!-- Navbar -->

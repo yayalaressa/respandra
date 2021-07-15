@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends Controller {
+class Welcome extends AppController {
 	
 	function __construct()
 	{

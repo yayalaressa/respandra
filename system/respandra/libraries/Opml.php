@@ -11,6 +11,7 @@ class Opml
         $this->data = $data;
         $this->writer = new XMLWriter();
         $this->writer->openMemory();
+        log_message('info', 'Opml Class Initialized');
     }
 
     public function render()

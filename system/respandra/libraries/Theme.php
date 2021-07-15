@@ -7,6 +7,7 @@ class Theme {
 		
 		function __construct() {
 			$this->CI =& get_instance();
+			log_message('info', 'Theme Class Initialized');
 		}
 
 		private function _set($name, $value){
@@ -21,7 +22,7 @@ class Theme {
 		
 		public function render($view = '', $data = array(), $return = FALSE)
 		{
-			$this->_load('layout',  $view, $data, $return);
+			$this->_load('admin/layout',  $view, $data, $return);
 		}
 		
 }

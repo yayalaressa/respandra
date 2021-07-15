@@ -53,7 +53,8 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-/* Route Module RespandraCMS */
+/* Route Admin RespandraCMS */
 $route['admin/(:any)'] = '$1/admin';
 $route['admin/(:any)/(:any)'] = '$1/admin/$2';
 $route['admin/(:any)/(:any)/(:any)'] = '$1/admin/$2/$3';
+$route['admin/(:any)/(:any)/(:any)/(:any)'] = '$1/admin/$2/$3/$4';
