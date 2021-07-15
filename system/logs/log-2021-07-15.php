@@ -998,3 +998,78 @@ DEBUG - 2021-07-15 04:09:18 --> File loaded: /storage/emulated/0/htdocs/public/m
 DEBUG - 2021-07-15 04:09:18 --> File loaded: /storage/emulated/0/htdocs/public/themes/admin/layout.php
 INFO - 2021-07-15 04:09:18 --> Final output sent to browser
 DEBUG - 2021-07-15 04:09:18 --> Total execution time: 1.3121
+INFO - 2021-07-15 04:38:17 --> Config Class Initialized
+INFO - 2021-07-15 04:38:17 --> Hooks Class Initialized
+DEBUG - 2021-07-15 04:38:17 --> UTF-8 Support Enabled
+INFO - 2021-07-15 04:38:17 --> Utf8 Class Initialized
+INFO - 2021-07-15 04:38:17 --> URI Class Initialized
+INFO - 2021-07-15 04:38:17 --> Router Class Initialized
+INFO - 2021-07-15 04:38:17 --> Output Class Initialized
+INFO - 2021-07-15 04:38:17 --> Security Class Initialized
+DEBUG - 2021-07-15 04:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-07-15 04:38:17 --> CSRF cookie sent
+INFO - 2021-07-15 04:38:17 --> Input Class Initialized
+INFO - 2021-07-15 04:38:17 --> Language Class Initialized
+INFO - 2021-07-15 04:38:17 --> Language Class Initialized
+INFO - 2021-07-15 04:38:17 --> Config Class Initialized
+INFO - 2021-07-15 04:38:17 --> Loader Class Initialized
+INFO - 2021-07-15 04:38:17 --> Helper loaded: url_helper
+INFO - 2021-07-15 04:38:17 --> Helper loaded: file_helper
+DEBUG - 2021-07-15 04:38:17 --> Session Class Initialized
+INFO - 2021-07-15 04:38:17 --> Helper loaded: string_helper
+DEBUG - 2021-07-15 04:38:17 --> Session routines successfully run
+INFO - 2021-07-15 04:38:17 --> Controller Class Initialized
+DEBUG - 2021-07-15 04:38:17 --> System MX_Controller Initialized
+INFO - 2021-07-15 04:38:17 --> Helper loaded: dispatch_helper
+INFO - 2021-07-15 04:38:17 --> Helper loaded: form_helper
+INFO - 2021-07-15 04:38:17 --> Helper loaded: email_helper
+INFO - 2021-07-15 04:38:17 --> Theme Class Initialized
+INFO - 2021-07-15 04:38:17 --> Upload Class Initialized
+INFO - 2021-07-15 04:38:17 --> Email Class Initialized
+INFO - 2021-07-15 04:38:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-07-15 04:38:17 --> Pagination Class Initialized
+INFO - 2021-07-15 04:38:17 --> Form Validation Class Initialized
+INFO - 2021-07-15 04:38:17 --> MY_Controller Class Initialized
+INFO - 2021-07-15 04:38:17 --> AdminController Class Initialized
+DEBUG - 2021-07-15 04:38:18 --> File loaded: /storage/emulated/0/htdocs/public/modules/updater/views/admin/updater.php
+DEBUG - 2021-07-15 04:38:18 --> File loaded: /storage/emulated/0/htdocs/public/themes/admin/layout.php
+INFO - 2021-07-15 04:38:18 --> Final output sent to browser
+DEBUG - 2021-07-15 04:38:18 --> Total execution time: 1.4700
+INFO - 2021-07-15 04:38:27 --> Config Class Initialized
+INFO - 2021-07-15 04:38:27 --> Hooks Class Initialized
+DEBUG - 2021-07-15 04:38:27 --> UTF-8 Support Enabled
+INFO - 2021-07-15 04:38:27 --> Utf8 Class Initialized
+INFO - 2021-07-15 04:38:27 --> URI Class Initialized
+DEBUG - 2021-07-15 04:38:27 --> No URI present. Default controller set.
+INFO - 2021-07-15 04:38:27 --> Router Class Initialized
+INFO - 2021-07-15 04:38:27 --> Output Class Initialized
+INFO - 2021-07-15 04:38:27 --> Security Class Initialized
+DEBUG - 2021-07-15 04:38:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-07-15 04:38:27 --> CSRF cookie sent
+INFO - 2021-07-15 04:38:27 --> Input Class Initialized
+INFO - 2021-07-15 04:38:27 --> Language Class Initialized
+INFO - 2021-07-15 04:38:27 --> Language Class Initialized
+INFO - 2021-07-15 04:38:27 --> Config Class Initialized
+INFO - 2021-07-15 04:38:27 --> Loader Class Initialized
+INFO - 2021-07-15 04:38:27 --> Helper loaded: url_helper
+INFO - 2021-07-15 04:38:27 --> Helper loaded: file_helper
+DEBUG - 2021-07-15 04:38:27 --> Session Class Initialized
+INFO - 2021-07-15 04:38:27 --> Helper loaded: string_helper
+DEBUG - 2021-07-15 04:38:27 --> Session routines successfully run
+INFO - 2021-07-15 04:38:27 --> Controller Class Initialized
+DEBUG - 2021-07-15 04:38:27 --> Welcome MX_Controller Initialized
+INFO - 2021-07-15 04:38:27 --> Helper loaded: dispatch_helper
+INFO - 2021-07-15 04:38:27 --> Helper loaded: form_helper
+INFO - 2021-07-15 04:38:27 --> Helper loaded: email_helper
+INFO - 2021-07-15 04:38:27 --> Theme Class Initialized
+INFO - 2021-07-15 04:38:27 --> Upload Class Initialized
+INFO - 2021-07-15 04:38:27 --> Email Class Initialized
+INFO - 2021-07-15 04:38:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-07-15 04:38:27 --> Pagination Class Initialized
+INFO - 2021-07-15 04:38:27 --> Form Validation Class Initialized
+INFO - 2021-07-15 04:38:27 --> MY_Controller Class Initialized
+INFO - 2021-07-15 04:38:27 --> AdminController Class Initialized
+DEBUG - 2021-07-15 04:38:27 --> File loaded: /storage/emulated/0/htdocs/public/modules/dashboard/views/admin/welcome.php
+DEBUG - 2021-07-15 04:38:27 --> File loaded: /storage/emulated/0/htdocs/public/themes/admin/layout.php
+INFO - 2021-07-15 04:38:27 --> Final output sent to browser
+DEBUG - 2021-07-15 04:38:27 --> Total execution time: 0.6173

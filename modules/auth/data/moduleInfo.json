@@ -1,6 +1,6 @@
 {
-    "id": "100",
-    "name": "Logout",
+    "id": "90",
+    "name": "Auth",
     "version": "1.0",
     "url": "#",
     "status": "official",

@@ -25,7 +25,7 @@ class System extends AdminController {
                 'title' => 'Updater',
                 'heading' => 'Your system a wait update!',
                 'is_role' => 'admin',
-                'breadcrumb' => 'update system',
+                'breadcrumb' => 'Update system',
                 'button' => 'Update to ' . $info['tag_name'],
                 'update' => $info,
                 'url' => site_url() . 'admin/updater/system/do_update'
@@ -36,7 +36,7 @@ class System extends AdminController {
                 'title' => 'Updater',
                 'heading' => 'Your system is already the latest version.',
                 'is_role' => 'admin',
-                'breadcrumb' => 'update system',
+                'breadcrumb' => 'Update system',
                 'button' => 'Official repository',
                 'update' => $info,
                 'url' => 'https://yayalaressa.github.io/respandra/'

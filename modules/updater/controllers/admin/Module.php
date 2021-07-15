@@ -24,9 +24,9 @@ class Module extends AdminController {
             $info = $this->updater->getNewestInfo();
             $this->theme->render('admin/updater', array(
                 'title' => 'Updater',
-                'heading' => 'Your module a wait upgrade!',
+                'heading' => 'Your module a wait update!',
                 'is_role' => 'admin',
-                'breadcrumb' => 'update module',
+                'breadcrumb' => 'Update module',
                 'button' => 'Update to ' . $info['tag_name'],
                 'update' => $info,
                 'url' => site_url() . 'admin/updater/module/do_update'
@@ -37,8 +37,8 @@ class Module extends AdminController {
                 'title' => 'Updater',
                 'heading' => 'Your module is already the latest version.',
                 'is_role' => 'admin',
-                'breadcrumb' => 'update module',
-                'button' => 'Read me',
+                'breadcrumb' => 'Update module',
+                'button' => 'Official repository',
                 'update' => $info,
                 'url' => 'https://yayalaressa.github.io/respandra-modules/'
             ));

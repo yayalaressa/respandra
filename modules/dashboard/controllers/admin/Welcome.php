@@ -16,12 +16,12 @@ class Welcome extends AdminController {
 		$d->title = 'Dashboard Title';
 		$d->description = 'Dashboard Description';
 		$d->url = 'Dashboard Link';
-
+		
 		$this->theme->render('admin/welcome', array(
 			'title' => 'Dashboard',
 			'heading' => 'Dashboard',
 			'is_role' => 'admin',
-			'breadcrumb' => 'dashboard',
+			'breadcrumb' => 'Dashboard',
 			'dashboard' => $d
 		));
 	}
